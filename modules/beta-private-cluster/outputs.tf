@@ -176,8 +176,3 @@ output "identity_namespace" {
     google_container_cluster.primary
   ]
 }
-
-output "instance_group_urls" {
-  value = google_container_cluster.primary.instance_group_urls
-}
-
